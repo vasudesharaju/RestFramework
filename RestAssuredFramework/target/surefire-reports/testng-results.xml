@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2342" started-at="2019-07-11T05:31:47Z" finished-at="2019-07-11T05:31:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2342" started-at="2019-07-11T05:31:47Z" finished-at="2019-07-11T05:31:49Z">
+      <class name="testcases.verifyAPI2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.verifyAPI2@79b4d0f]" name="setUp" is-config="true" duration-ms="351" started-at="2019-07-10T22:31:47Z" finished-at="2019-07-10T22:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContent()[pri:0, instance:testcases.verifyAPI2@79b4d0f]" name="verifyContent" duration-ms="2335" started-at="2019-07-10T22:31:47Z" finished-at="2019-07-10T22:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContent -->
+      </class> <!-- testcases.verifyAPI2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
