@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2342" started-at="2019-07-11T05:31:47Z" finished-at="2019-07-11T05:31:49Z">
+  <suite name="Suite" duration-ms="3019" started-at="2019-07-14T05:26:38Z" finished-at="2019-07-14T05:26:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2342" started-at="2019-07-11T05:31:47Z" finished-at="2019-07-11T05:31:49Z">
-      <class name="testcases.verifyAPI2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.verifyAPI2@79b4d0f]" name="setUp" is-config="true" duration-ms="351" started-at="2019-07-10T22:31:47Z" finished-at="2019-07-10T22:31:47Z">
+    <test name="Test" duration-ms="3019" started-at="2019-07-14T05:26:38Z" finished-at="2019-07-14T05:26:41Z">
+      <class name="testcases.verifyAPI">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.verifyAPI@79b4d0f]" name="setUp" is-config="true" duration-ms="658" started-at="2019-07-13T22:26:37Z" finished-at="2019-07-13T22:26:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContent()[pri:0, instance:testcases.verifyAPI2@79b4d0f]" name="verifyContent" duration-ms="2335" started-at="2019-07-10T22:31:47Z" finished-at="2019-07-10T22:31:49Z">
+        <test-method status="PASS" signature="verifyContent()[pri:0, instance:testcases.verifyAPI@79b4d0f]" name="verifyContent" duration-ms="2831" started-at="2019-07-13T22:26:38Z" finished-at="2019-07-13T22:26:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContent -->
-      </class> <!-- testcases.verifyAPI2 -->
+        <test-method status="PASS" signature="verifyStatus()[pri:0, instance:testcases.verifyAPI@79b4d0f]" name="verifyStatus" duration-ms="175" started-at="2019-07-13T22:26:40Z" finished-at="2019-07-13T22:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatus -->
+      </class> <!-- testcases.verifyAPI -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

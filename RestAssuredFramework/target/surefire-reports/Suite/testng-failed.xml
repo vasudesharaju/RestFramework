@@ -6,7 +6,7 @@
   </listeners>
   <test name="Test">
     <classes>
-      <class name="testcases.verifyAPI2"/>
+      <class name="testcases.verifyAPI"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->
